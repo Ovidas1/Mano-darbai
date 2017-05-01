@@ -1,0 +1,119 @@
+<head>
+	 <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <script src="jquery-3.2.0.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.min.js"></script>
+      <script src="grafikasOvidijaus.js"></script>
+      <link rel="stylesheet" type="text/css" href="bendras.css">
+	  <meta charset="UTF-8">
+</head>
+<body class="b">
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+   <nav class="nav" role="navigation">
+    <div class="nav-wrapper">
+      <a id="logo-container" href="index.html" class="brand-logo"><img src="image/logo.jpg" style="width:140px;height:64px;""></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Pagrindinis</a></li>
+        <li><a href="vietos.html">Keisčiausios Vietos</a></li>      
+        <!-- Dropdown Structure -->
+        
+        <li><a class="dropdown-button" href="" data-activates="dropdown1">Apie<i class="material-icons right"></i></a></li>    
+        
+      </ul>
+            <ul id="dropdown1" class="dropdown-content">
+        
+        <li class="divider"></li>
+        <li><a href="map.html">Apie</a></li>
+        <li><a href="gabriele.html">Medeina</a></li>
+        <li><a href="ovidijus.html">Perkūnas</a></li>
+        <li><a href="darius.html">Vandenis</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="index.html">Pagrindinis</a></li>
+        <li><a href="vietos.html">Keisčiausios Vietos</a></li>
+      </ul>
+      </div>
+    </nav>
+      
+<nav>
+    <div class="nav">
+      <div class="col s12">
+        <a href="index.html" class="breadcrumb">Pagrindinis</a>
+        <a href="map.html" class="breadcrumb">Apie</a>
+        <a href="ovidijus.html" class="breadcrumb">Perkūnas</a>
+        
+      </div>
+    </div>
+  </nav>
+
+  </nav>
+
+<div class="container">
+<h3 class="white-text" style="text-align: center; font-style: italic; font-family: cursive;">Perkūnas</h3>
+      <div class="row">
+            <div class="col l12 m12 s12 zmog">
+            <img src="image/perkunas.jpg" style="margin: 10px; height: 200px; float: left;">
+      <p style="font-family: serif; margin-left:20px; margin-right: 20px;">  
+
+      Perkūnas – atmosferos ir gamtos valdytojas, jam priskiriama žemės augalijos priežiūra, globa, rūpinimasis vaisingumu, įvairiais atmosferos reiškiniais, jo žinioje neišsenkamos vandens atsargos, sukauptos virš „akmeninio dangaus skliauto“. Šiuo vandeniu pavasarį per pirmąjį griaustinį Perkūnas, besitrankydamas dangaus skliaute, mosuodamas „dievo rykšte“ – žaibais, svaidydamas akmeninius kirvukus ar strėles, apvaisina deivę Žemyną, kuri įgauna galią gimdyti vaisius. Nukritus pirmiesiems Perkūno „kirvukams“, kuriems priskiriama nepaprasta galia pažadinti ir apvaisinti deivę Motiną, pabunda žemė, pradeda želti žolė, ima sprogti medžiai. Atėjus sausrai, Perkūnas užmuša vandenį uždarančias chtonines būtybes (sparnuotą gyvatę, sparnuotą slibiną), kurios pavogusios dievaičio griaustinio instrumentą, vėl jį atgauna, sugriaudžia, sparnuota gyvatė krinta negyva, pasipila lietus ir atgaivina išdžiuvusią žemę. Perkūnas globojo žmogų, jo dorovę, moralę, teisingumą, gėrį. Jis dažnai nužengdavo į žemę, kad sužinotų, kaip gyvena žmonės. Šis dievaitis nekantrus, bet teisingas, o nusikaltusiems kaltės nedovanodavo. Tikėta, kad neteisingą žmogų jis nutrenkia. Perkūnas Dievui padėdavo tvarkyti pasaulį – Dievas nurodydavo, kur Perkūnui trenkti: Nepykinkim Dievo! Jis atsiųs Perkūną, kuris nutrenks, namus sudegins. Perkūnas galėjo užmušti gyvulius, sudeginti trobas, suskaldyti akmenis, šventyklas, medžius. Jis galėjo pakeisti žemės reljefą, išrausti duobes, pripildyti jas vandens ir paversti kūdromis, pelkėmis ir pan.</p>
+
+      </div>
+
+      <div style="padding: 30px;">
+                  <div class="col l4 m4 s4"><h5 class="white-text">Kiek per mėnesį aš: </h5><canvas id="myChart" width="50" height="50"></canvas></div>
+                  <div class="col l4 m4 s4 offset-l4-m4-s4"><h5 class="white-text">Mano diena: </h5><canvas id="mChart" width="400" height="400"></canvas></div>
+                  <div class="col l4 m4 s4 offset-l8-m8-s8"><h5 class="white-text">VCS man patiko: </h5><canvas id="mmChart" width="400" height="400"></canvas>
+                </div>
+
+      <div class="row">
+        <div class="col s12 m6 l6">
+            <div class="card horizontal"><a href="gabriele.html">
+              <div class="card-image col s6 m6 l6">
+                <img src="image/medeina.jpg" class="col s6 m6 l6" style="height: 200px;">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>Medeina <br>lietuvių miško deivė. Neretai tapatinama su Žvorūna. XIII a. šaltiniuose minima kaip stipriai militarizuoto lietuvių panteono dievų kaip vienintelė deivė. </p>
+                </div>
+              </div>
+              </a>
+            </div>
+          </div>
+      <div class="col s12 m6 l6 offset-m6-l6">
+    <div class="card horizontal"><a href="darius.html">
+      <div class="card-image col s6 m6 l6 ">
+        <img src="image/vandenis.jpg" class="col s6 m6 l6" style="height: 200px;">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p>Vandenis <br> Dar vadinamas vandens seneliu, vandens nelabuoju – slavų mitologinė vandens būtybė. Paprastai vaizduojamas kaip senas vyras, ilgabarzdis, žilaūsis, turintis gyvūnų bruožų.</p>
+        </div>
+      </div>
+      </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+	  <footer class="page-footer nav">
+    
+    <div  class="footer-copyright">
+      <div class="container">
+      &copy; 2017 Made by <a class="brown-text text-lighten-3" href="index.html">Web God</a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/as.js"></script>
+</body>

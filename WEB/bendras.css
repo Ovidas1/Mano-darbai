@@ -1,0 +1,27 @@
+.b{
+	background-image: url(Nature-Blur-Wallpapers-2.jpg);
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.nav{
+	background-color: #3F2521;
+}
+.zmog{
+	background-color: white;
+	border:solid;
+}
+.card-title {
+font-family: sans-serif; 
+font-style: italic; 
+font-weight: bolder;
+}
+.card-content {
+	font-family: serif;
+	font-style: normal;
+	text-align: center;
+}
+.w {
+	background-color: #E8C896;
+}

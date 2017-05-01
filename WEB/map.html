@@ -1,0 +1,163 @@
+<head>
+      <script src="jquery-3.2.0.min.js"></script>
+       <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <script src="mapui.js"></script>
+      <link rel="stylesheet" type="text/css" href="bendras.css">
+      
+
+      <style>
+      #map {
+        height: 400px;
+        width: 48%;
+        position: absolute;
+        left: 20px;
+       }
+    </style>
+	<meta charset="UTF-8">
+</head>
+<body class="b">
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+ <nav class="nav" role="navigation">
+    <div class="nav-wrapper">
+      <a id="logo-container" href="index.html" class="brand-logo"><img src="image/logo.jpg" style="width:140px;height:64px;""></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Pagrindinis</a></li>
+        <li><a href="vietos.html">Keisčiausios Vietos</a></li>      
+        <!-- Dropdown Structure -->
+        
+        <li><a class="dropdown-button" href="" data-activates="dropdown1">Apie<i class="material-icons right"></i></a></li>    
+        
+      </ul>
+            <ul id="dropdown1" class="dropdown-content">
+        
+        <li class="divider"></li>
+        <li><a href="map.html">Apie</a></li>
+        <li><a href="gabriele.html">Medeina</a></li>
+        <li><a href="ovidijus.html">Perkūnas</a></li>
+        <li><a href="darius.html">Vandenis</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="index.html">Pagrindinis</a></li>
+        <li><a href="vietos.html">Keisčiausios Vietos</a></li>
+      </ul>
+      </div>
+    </nav>
+      
+<nav>
+    <div class="nav">
+      <div class="col s12">
+        <a href="index.html" class="breadcrumb">Pagrindinis</a>
+        <a href="map.html" class="breadcrumb">Apie</a>
+        
+      </div>
+    </div>
+  </nav>
+
+  </nav>
+  
+  <div class="container">
+      <div class="row">
+    <div class="col s12">
+      <ul class="tabs">
+        <li class="tab col s3"><a class="active" href="#test1">Kryžių kalnas</a></li>
+        <li class="tab col s3"><a  href="#test2">Puntuko akmuo</a></li>
+        <li class="tab col s3"><a href="#test3">Pūčkorių atodanga</a></li>
+        <li class="tab col s3"><a href="#test4">Kuršių nerija</a></li>
+      </ul>
+    </div>
+    <div class="row">
+    <div id="test1" class="col s12">
+
+    <img class="col s8 m7 l6" src="75173_original.jpg">
+    
+    <p class="white-text">Maždaug 12 km į šiaurę nuo Šiaulių, netoli Šiaulių – Rygos geležinkelio linijos, laukuose stovi nelabai didelis, pailgas, per vidury įdubęs kalnas, visas tankiai nustatytas kryžiais. Tai garsusis Kryžių kalnas, liudijantis pagarbą ir ištikimybę kryžiaus aukai, per kurią Kristus išgelbėjo visų laikų ir kartų žmones. Kryžių kalnas primena ne tik Atpirkėjo kančią bei mirtį, bet ir Jo prisikėlimą ir išaukštinimą, sykiu ir kiekvieno žmogaus išaukštinimą per Kryžiaus slėpinį. Keliaujantys į Kryžių kalną, jame besimeldžiantys, statantys kryžius, liudija iš kryžiaus trykštančią stiprybę, neišsenkančią viltį ir tikėjimą Dievo meile.
+      Rašytiniuose šaltiniuose Kryžių kalnas pirmąkart minimas XIX a. viduryje (kryžiai aptinkami nuo 1850 m.), gali būti, kad kryžiai pradėti statyti po 1831 m. sukilimo. Domantų kaimo ribose kryžius imta statyti ant Jurgaičių piliakalnio po to, kai caro valdžia žiauriai susidorojo su 1831 m. ir 1863 m. sukilimo dalyviais. Apie 1900 m. šventa tapusi vieta ėmė traukti vis didesnes tikinčiųjų minias – žmonės kalne statydavo kryžius tikėdamiesi malonės. XX a. pradžioje Kryžių kalnas tapo sakraline vieta, jį gausiai lankė žmonės, vykdavo pamaldos, atlaidai.
+      Sovietų valdžiai kalnas ir čia esantys kryžiai liudijo apie lietuvių religingumą, o tai prieštaravo tuo metu skleistai sovietinei ideologijai, todėl 1961 m. prasidėjo Kryžių kalno naikinimas: jis buvo nušluotas su buldozeriais, mediniai kryžiai sudeginti, metaliniai – nuvežti į metalo laužą, akmeniniai ir betoniniai – užkasti. Prasidėjo „buldozerinio ateizmo“ epocha, trukusi beveik 20 metų. Kalną saugojo kariuomenė ir KGB, buvo planuota teritoriją užtvindyti, Kryžių kalną paversti sunkiai prieinama vieta. Bet po kiekvieno griovimo (o jų būta keturių, 1964–1984 m.) Kryžių kalnas vis atgimdavo, nors betoniniai kryžiai buvo suklojami į kelius, mediniai – deginami, o metaliniai išvežami į laužą. Be to, 1963 m. minint 1863 m. sukilimo metines ant kalno pastatytas paminklinis akmuo.</p></div>
+    <div id="test2" class="col s12">
+    <img src="Puntuko-akmuo.jpg" class="col s8 m7 l6" >
+
+      <p class="white-text">   Puntuko akmuo – antrasis pagal dydį riedulys Lietuvoje, stūkso 6 km į pietus nuo Anykščių, Anykščių šilelio  kraštovaizdžio  draustinyje, netoli  Šventosios.  Tai gamtos, mitologijos ir istorijos paminklas, geologiniu gamtos paminklu paskelbtas 2000 m.
+      Iki 1957 m. Puntukas laikytas didžiausiu Lietuvos akmenimi, kol Puokėje nebuvo aptiktas Barstyčių akmuo.
+      Į pietvakarius nuo Anykščių yra akmuo Puntuko brolis, Karalienės liūnas.
+      Puntuko akmuo – pagal sudėtį yra granitas. Punktukas sveria apie 265 tonas, yra 7,54 m ilgio, 7,34 m pločio ir 5,7 m aukščio (iš jų – 1,5 m po žeme). Puntuko tūris – 100 m³. Puntuko tankis yra apie 2,7 g/cm³. Didžiausia horizontali apimtis – 21,39 m.
+
+       Archeologų manymu, milžinišką riedulį paliko Skandinavijos kalnų ledynai, slinkę čia prieš 20-14 tūkstančių metų.
+      Apie Puntuko akmens kilmę paskojami mitai. Viename iš mitų pasakojama, kaip velnias nešęs akmenį bažnyčiai nugriauti, o pragydus gaidžiams, jį pametęs.
+      Kitas mitas pasakoja, jog akmuo pavadintas lietuvių karžygio Puntuko vardu, ant kurio šis buvo sudegintas. Sakoma, kad Puntukas norėjęs pagrobti šventąją ugnį saugojusią vaidilutę, ir už tai ir buvo nubaustas.
+      </p>
+</div>
+    <div id="test3" class="col s12">
+    <img src="PSX_20161022_185753-01.jpeg" class="col s8 m7 l6" >
+    <p class="white-text">Didžiausia parko vertybė – unikalūs Lietuvoje ledynų tirpsmo vandenų išgraužti (eroziniai) raguvynai (kalvynai) su būdingomis augalų bendrijomis. Įdomiausios Ribiškių ir Iškartų didžiosios erozinės vėduoklės, ilgiausių Lietuvoje atragių (ilgų ir siaurų gūbrių) sistema, Tuputiškių raguvų sistema, Ancučių ir Pūčkorių stačiašlaičiai giliai suraižyti raguvyno masyvai, Vilnios slėnio šlaitai, išraiškingi Markučių eroziniai latakai ir kt. Įspūdinga Vilniaus panorama atsiveria nuo Ribiškių kalvų, Vilnios slėniu galima pasigrožėti nuo garsiosios Pūčkorių atodangos. Kalvų šlaituose išlikę eglynų ir plačialapių miškų fragmentai pasižymi turtingomis rūšimis augalų bendrijomis.
+Viena žymiausių Pavilnių regioninio parko vieta – Pūčkorių atodanga į gamtos paminklus įtraukta 1974 m. Tai- aukščiausia ir viena įspūdingiausių atodangų Lietuvoje, išsidėsčiusi dešiniajame Vilnios krante. Jos aukštis apie 65 m (absoliutus aukštis 173 m), plotis 260 m. Tai natūralus ledyno sustumtų ir ledynų tirpsmo vandens suplautų nuogulų pjūvis.
+Per parką teka viena vaizdingiausių Lietuvos upių – Vilnia, kurios slėnis žemupyje įsirėžęs daugiau nei 60 m, o tėkmė nusileidžia net 40 m, taigi Vilnia srūva kaip kalnų ūpokšnis.
+Pavilnių RP yra daugiau nei 15 puikių regyklų, nuo kurių galima gėrėtis įspūdingais erozinių kalvynų vaizdais ir Vilniumi. Visa panorama ir puikūs Ribiškių kalvyno vaizdai atsiveria nuo Ribiškių kalno. Eroziniais kalvynais galima pasigrožėti nuo regyklų šalia Gurių ir Veršupio gatvių. Nuo Pūčkorių atodangos galima išvysti nepakartojamo grožio Vilnios slėnio panoramą.
+Parkas pasižymi gausia augalų bendrijų įvairove – čia galima rasti beveik visus pagrindinius augalijos tipus. Šiame, nors ir arti miesto esančiame parke auga daugiau kaip pusė (apie 750) Lietuvos floros rūšių.</p>
+    </div>
+    <div id="test4" class="col s12">
+          <img src="neregeta-lietuva-202.jpg" class="col s8 m7 l6" >
+          <p class="white-text">Kur̃šių nerijà (rus. Куршская коса, vok. Kurische Nehrung) – pusiasalis su smėlio kopomis, skiriantis Kuršių marias nuo Baltijos jūros. Šiaurinė nerijos pusė priklauso Lietuvos Respublikai (šiaurinis pakraštys – Klaipėdos miesto, o likusi dalis – Neringos miesto savivaldybėms). Kita dalis, kurioje yra Pilkopa, Rasytė, Šarkuva ir kai kurios kitos mažesnės gyvenvietės, priklauso Rusijos Federacijos Kaliningrado sričiai. Išilgai Nerijos nutiestas vienintelis pusiasalio krašto kelias  167  Smiltynė–Nida .
+Kuršių nerija – saugoma teritorija, joje įkurti Kuršių nerijos nacionaliniai parkai Lietuvos dalyje ir Kaliningrado srityje. Pasakojama, kad gilioje senovėje Karvaičio dukra Neringa užaugo didelė didelė, tikra milžinė. Ji buvo geros širdies ir daug padėdavo žmonėms – per audras brisdavo į jūrą ir parplukdydavo į krantą pasiklydusius laivus. Bet kartą Bangpūtys užsirūstino, sukėlė audras, kurios nesiliovė. Žmonių ginti stojo Neringa. Ji sėmė į prijuostę smėlį, nešė į jūrą ir pylė į vandenį. Tol nešė, kol neriją supylė. Ta nerija nuo jūros atitvėrė marias. Žmonės iš dėkingumo tą smėlio juostą ir pavadino Neringa.
+Pagal kitas legendas, Kuršių neriją supylė prie jūros žaidžianti maža itin stipri mergytė Neringa. Juodkrantėje esančiame Raganų kalne esama Neringos gyvenimą ir jos žygius aprašančių skulptūrų.</p>
+    </div>
+  </div>
+  </div>
+  </div>
+
+
+<div class="row">
+  <div class="col l6 m6 s6" style="height: 400px">
+
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 54.711199, lng: 25.286906};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 14,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMNduxMt0O6Yvp3OZY2BlmQQSsJrq32_8&callback=initMap">
+    </script>
+  </div>
+
+  <div class="col l6 m6 s6 offset-l6-m6-s12" >
+      <div style="border:solid; height: 400px; background-color: white;">
+             <p> &nbsp; Pavadinimas: VILNIUS CODING SCHOOL </p>
+             <p> &nbsp; Lokacija: KALVARIJŲ G. 125 </p>
+             <p> &nbsp; Miestas: Vilnius </p>
+             <p> &nbsp; Šalis: Lietuva</p>
+             <p> &nbsp; Telefonas: +370 606 75071</p>
+             <p> &nbsp; Email: info@vilniuscoding.lt</p>
+
+        </div>
+  </div>
+</div>
+<footer class="page-footer nav">
+    
+    <div  class="footer-copyright">
+      <div class="container">
+      &copy; 2017 Made by <a class="brown-text text-lighten-3" href="index.html">Web God</a>
+      </div>
+    </div>
+  </footer>
+
+    <script src="js/as.js"></script>
+	
+</body>

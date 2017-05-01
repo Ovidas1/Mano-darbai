@@ -1,0 +1,9 @@
+C:\Users\Ovidas\Desktop\Kalkuliatorius\Kalkuliatorius\Kalkuliatorius\bin\Debug\Kalkuliatorius.exe.config
+C:\Users\Ovidas\Desktop\Kalkuliatorius\Kalkuliatorius\Kalkuliatorius\bin\Debug\Kalkuliatorius.exe
+C:\Users\Ovidas\Desktop\Kalkuliatorius\Kalkuliatorius\Kalkuliatorius\bin\Debug\Kalkuliatorius.pdb
+C:\Users\Ovidas\Desktop\Kalkuliatorius\Kalkuliatorius\Kalkuliatorius\obj\Debug\Kalkuliatorius.csprojResolveAssemblyReference.cache
+C:\Users\Ovidas\Desktop\Kalkuliatorius\Kalkuliatorius\Kalkuliatorius\obj\Debug\Kalkuliatorius.Form1.resources
+C:\Users\Ovidas\Desktop\Kalkuliatorius\Kalkuliatorius\Kalkuliatorius\obj\Debug\Kalkuliatorius.Properties.Resources.resources
+C:\Users\Ovidas\Desktop\Kalkuliatorius\Kalkuliatorius\Kalkuliatorius\obj\Debug\Kalkuliatorius.csproj.GenerateResource.Cache
+C:\Users\Ovidas\Desktop\Kalkuliatorius\Kalkuliatorius\Kalkuliatorius\obj\Debug\Kalkuliatorius.exe
+C:\Users\Ovidas\Desktop\Kalkuliatorius\Kalkuliatorius\Kalkuliatorius\obj\Debug\Kalkuliatorius.pdb
