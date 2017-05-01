@@ -1,0 +1,17 @@
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\Snake\Snake\obj\Debug\Snake.exe
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\Snake\Snake\obj\Debug\Snake.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\Snake\Snake\bin\Debug\Snake.exe
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\Snake\Snake\bin\Debug\Snake.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\Snake\Snake\obj\Debug\Snake.Form1.resources
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\Snake\Snake\obj\Debug\Snake.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\Snake\Snake\obj\Debug\Snake.csproj.GenerateResource.Cache
+C:\Users\Ovidas\Downloads\Snake\Snake\Snake\obj\Debug\Snake.exe
+C:\Users\Ovidas\Downloads\Snake\Snake\Snake\obj\Debug\Snake.pdb
+C:\Users\Ovidas\Downloads\Snake\Snake\Snake\bin\Debug\Snake.exe
+C:\Users\Ovidas\Downloads\Snake\Snake\Snake\bin\Debug\Snake.pdb
+C:\Users\Ovidas\Downloads\Snake\Snake\Snake\obj\Debug\Snake.csprojResolveAssemblyReference.cache
+C:\Users\Ovidas\Downloads\Snake\Snake\Snake\obj\Debug\Snake.Form1.resources
+C:\Users\Ovidas\Downloads\Snake\Snake\Snake\obj\Debug\Snake.Properties.Resources.resources
+C:\Users\Ovidas\Downloads\Snake\Snake\Snake\obj\Debug\Snake.csproj.GenerateResource.Cache
+C:\Users\Ovidas\Documents\snake\Snake\Snake\Snake\obj\Debug\Snake.exe
+C:\Users\Ovidas\Documents\snake\Snake\Snake\Snake\obj\Debug\Snake.pdb
